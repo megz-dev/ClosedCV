@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ClosedCV.Api/ClosedCV.Api.csproj" Id="45cda017-6c51-4b61-ad67-a23759db232e" />
+    <Project Path="src/ClosedCV.Application/ClosedCV.Application.csproj" Id="cc4641cc-fd6c-40bf-a04d-cc4fd38b76cc" />
+    <Project Path="src/ClosedCV.Domain/ClosedCV.Domain.csproj" Id="094bc502-4235-42e9-b033-4b32e01b20e8" />
+    <Project Path="src/ClosedCV.Infrastructure/ClosedCV.Infrastructure.csproj" Id="25464e07-b8ac-4426-89cc-319c9499fe89" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ClosedCV.Api.Tests/ClosedCV.Api.Tests.csproj" Id="de60c134-35aa-4ea4-8a73-a0b24d17a501" />
+    <Project Path="tests/ClosedCV.Application.Tests/ClosedCV.Application.Tests.csproj" Id="aa2090af-eb2b-45dd-92d7-5e77a97097dc" />
+    <Project Path="tests/ClosedCV.Domain.Tests/ClosedCV.Domain.Tests.csproj" Id="d5c87743-4bca-4e7a-9c2c-134b7014766f" />
+  </Folder>
+</Solution>

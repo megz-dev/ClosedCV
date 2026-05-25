@@ -1,0 +1,4 @@
+services:
+  closedcv-api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development

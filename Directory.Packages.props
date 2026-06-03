@@ -1,21 +1,28 @@
 <Project>
-  <PropertyGroup>
-    <!-- Enable central package management, https://learn.microsoft.com/en-us/nuget/consume-packages/Central-Package-Management -->
-    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-  </PropertyGroup>
-  <ItemGroup>
-  </ItemGroup>
-  <ItemGroup>
-    <!-- Shared -->
-    <!-- Domain -->
-    <!-- Application -->
-    <!-- Infrastructure -->
-    <!-- API -->
-    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
-    <!-- Tests -->
-    <PackageVersion Include="coverlet.collector" Version="6.0.4" />
-    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
-    <PackageVersion Include="xunit" Version="2.9.3" />
-    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.4" />
-  </ItemGroup>
+	<PropertyGroup>
+		<!-- Enable central package management, https://learn.microsoft.com/en-us/nuget/consume-packages/Central-Package-Management -->
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+	<ItemGroup>
+	</ItemGroup>
+	<ItemGroup>
+		<!-- Shared -->
+		<PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.8" />
+		<!-- Domain -->
+		<!-- Application -->
+		<PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+		<PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.8" />
+		<PackageVersion Include="Scrutor" Version="7.0.0" />
+		<!-- Infrastructure -->
+		<PackageVersion Include="Serilog" Version="4.3.1" />
+		<PackageVersion Include="Serilog.Sinks.Seq" Version="9.1.0" />
+		<PackageVersion Include="Serilog.AspNetCore" Version="10.0.0" />
+		<!-- API -->
+		<PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+		<!-- Tests -->
+		<PackageVersion Include="coverlet.collector" Version="6.0.4" />
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+		<PackageVersion Include="xunit" Version="2.9.3" />
+		<PackageVersion Include="xunit.runner.visualstudio" Version="3.1.4" />
+	</ItemGroup>
 </Project>
